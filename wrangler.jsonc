@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "anyrouter2api-worker",
+  "main": "src/worker.py",
+  "compatibility_date": "2026-02-23",
+  "compatibility_flags": [
+    "python_workers",
+    "python_dedicated_snapshot"
+  ],
+  "vars": {
+    "MESSAGE": "My env var"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
