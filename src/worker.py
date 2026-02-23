@@ -69,13 +69,16 @@ async def stream_response(resp):
 
 
 @app.get("/config")
-async def get_config(request: Request):
-    return request.scope["env"]
+async def get_config():
+    # indent=4 是关键，让字符串本身包含换行和空格
+    formatted_json = json.dumps(CONFIG, indent=4, ensure_ascii=False)
+    # 必须指定 media_type，否则浏览器不会格式化显示
+    return Response(content=formatted_json, media_type="application/json")
 
 
-@app.get("/health")
-async def health():
-    return {"status": "ok", "version": "v22", "tools_loaded": len(CONFIG['TARGET_BASE_URL'])}
+@app.get("/")
+async def root():
+    return {"status": "ok", "version": "v22", "tools_loaded": len(CONFIG['CLAUDE_CODE_TOOLS'])}
 
 
 @app.api_route("/v1/{path:path}", methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"])
