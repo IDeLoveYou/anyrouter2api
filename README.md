@@ -76,7 +76,7 @@ npm run dev
 
 特别感谢 [Darkstarrd-dev/anyrouter-opencode-bridge](https://github.com/Darkstarrd-dev/anyrouter-opencode-bridge) 项目！
 
-本项目在底层接入 AnyRouter (Claude Code API) 时，曾面临严格的 **WAF (Web Application Firewall) 拦截**与 **TLS 指纹校验**问题。通过参考和借鉴该项目中关于伪装请求和处理 TLS 指纹的优秀实现方案。
+本项目在底层接入 AnyRouter (Claude Code API) 时，曾面临 **WAF (Web Application Firewall) 拦截**与 **TLS 指纹校验**问题，参考和借鉴该项目中关于伪装请求和处理 TLS 指纹的实现方案。
 
 开源社区的知识共享与互助精神让本项目得以顺利推进，在此对该项目的开发者表示由衷的感谢！
 
