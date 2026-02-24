@@ -9,8 +9,10 @@
 
 AnyRouter 只支持官方的 Cloud Code 内置客户端。本项目是一个轻量级的请求代理与协议转换工具，它能在本地或服务端拦截并转化 Cloud Code 客户端的通讯协议，将其暴露为一个标准的 HTTP/RESTful 接口（例如兼容 Claude 格式）。
 
-**这意味着什么？**
+**这意味着什么？如下图。**
 你可以直接在其他你喜爱的 AI 客户端（如 `LobeHub`、`ChatBox`、`NextChat`）或者任何第三方代码编辑器（如 `Neovim`、`VSCode`、`JetBrains` 侧边栏插件）里，无缝享用 Cloud Code 强大的代码补全和问答能力！
+
+<img alt="image" src="https://github.com/user-attachments/assets/5dc85ddb-3d7b-4361-b7d6-8089ae653286" />
 
 ---
 
@@ -53,12 +55,12 @@ npm run dev
 
 ### 示例
 
-1. LobeHub
+#### 1. LobeHub
 
 <img alt="image" src="https://github.com/user-attachments/assets/cfb2e016-a00e-41c9-8a33-5fa849a936a9" />
 
 
-2. ChatBox
+#### 2. ChatBox (需要在url后加上'/v1' 以及 添加claude-opus-4-6模型)
 
 <img alt="image" src="https://github.com/user-attachments/assets/0efe6015-e889-416b-a8ee-3b2a9e5cda2b" />
 
