@@ -1,7 +1,8 @@
 # AnyRouter2API
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![GitHub release](https://img.shields.io/github/v/release/IDeLoveYou/anyrouter2api.svg)](https://github.com/IDeLoveYou/anyrouter2api/releases)
+[![GitHub tag](https://img.shields.io/github/v/tag/IDeLoveYou/anyrouter2api.svg)](https://github.com/IDeLoveYou/anyrouter2api/tags)
+[![GitHub stars](https://img.shields.io/github/stars/IDeLoveYou/anyrouter2api.svg?style=social)](https://github.com/IDeLoveYou/anyrouter2api/stargazers)
 
 > 🚀 **AnyRouter2API** — 将 Cloud Code 客户端内部请求优雅地代理为标准 API 接口，打破平台限制，让任何第三方客户端都能无缝接入和调用！
 
