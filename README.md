@@ -89,4 +89,3 @@ npm run dev
 ---
 *If you like this project, please give it a ⭐!*
 *Created with ❤️ by [IDeLoveYou](https://github.com/IDeLoveYou)*
-```
