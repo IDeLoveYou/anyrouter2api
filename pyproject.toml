@@ -10,3 +10,9 @@ dependencies = [
     "httpx>=0.28.1",
     "h2"
 ]
+
+[dependency-groups]
+dev = [
+    "workers-py",
+    "workers-runtime-sdk"
+]

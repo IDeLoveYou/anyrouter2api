@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "deploy": "uv run --with workers-py pywrangler deploy",
+    "deploy": "uv run pywrangler deploy",
     "dev": "uv run pywrangler dev",
     "start": "uv run pywrangler dev"
   },
