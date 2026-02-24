@@ -29,6 +29,7 @@ git clone https://github.com/IDeLoveYou/anyrouter2api.git
 cd anyrouter2api
 
 # 2. 安装依赖包
+npm install
 npm run build
 
 # 3. 启动服务
