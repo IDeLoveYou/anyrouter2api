@@ -7,9 +7,6 @@
     "python_workers",
     "python_dedicated_snapshot"
   ],
-  "build": {
-    "command": "npm install"
-  },
   "observability": {
     "enabled": true
   }
